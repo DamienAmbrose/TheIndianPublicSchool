@@ -1,10 +1,12 @@
 body {
     text-align: center;
 }
+
 .container {
     width: 100%;
     margin-left: -20px;
 }
+
 a {
     font-size: 17.5px;
     margin-top: 12.5px;
@@ -23,14 +25,16 @@ a {
     position: sticky;
     top: 0;
     z-index: 9999999;
-    background-color: rgb(8,25,45);
+    background-color: rgb(8, 25, 45);
 }
+
 #Open {
     background-image: url(Backdrop.png);
     height: 100%;
     text-align: left;
     width: 103%
 }
+
 h {
     color: white;
     margin-left: 25px;
@@ -38,8 +42,9 @@ h {
     font-size: 600%;
     font-family: Abel, sans-serif
 }
-p {
-     color: white;
+
+#p {
+    color: white;
     margin-left: 10px;
     font-weight: lighter;
     font-size: 180%;
@@ -47,20 +52,23 @@ p {
     text-align: left;
     float: left;
 }
+
 #Bubble {
     width: 30%;
     border: 5px solid white;
     border-radius: 100%;
-    box-shadow: 2px 2px 5px rgb(30,30,30);
+    box-shadow: 2px 2px 5px rgb(30, 30, 30);
     margin-left: 10%;
 }
-iframe{
+
+iframe {
     border-radius: 15px;
-    margin-top: 170px;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -77,74 +85,81 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(8, 25, 45);
 }
+
 #Facebook {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
 }
 
 #Facebook input {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #Facebook input.top:hover {
-  opacity:0;
+    opacity: 0;
 }
+
 #Instagram {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-  left: 170px;
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
+    left: 170px;
 }
 
 #Instagram input {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #Instagram input.top:hover {
-  opacity:0;
+    opacity: 0;
 }
+
 #Youtube {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-  left: 340px;
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
+    left: 340px;
 }
 
 #Youtube input {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #Youtube input.top:hover {
-  opacity:0;
+    opacity: 0;
 }
+
 #contact section {
     background-color: aqua;
 }
-#bg{
+
+#bg {
     background-color: red;
 }
-input{
+
+input {
     border-radius: 100%;
 }
+
 #contact12345 {
     background-color: firebrick;
     font-size: 50px;
@@ -187,6 +202,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .movie-bar {
     font-size: 20px;
     padding: 6px 22px;
@@ -194,15 +210,18 @@ li.dropdown {
     margin-bottom: 15px;
     width: 90%;
     display: inline-block;
-    background-color: rgb(8,25,45);
+    background-color: rgb(8, 25, 45);
     text-align: left;
 }
-.movie-bar i{
+
+.movie-bar i {
     float: right;
 }
-.movie-bar:hover{
+
+.movie-bar:hover {
     cursor: pointer;
 }
+
 .img-thumbnail {
     width: 200px;
     margin-left: 20%;
@@ -211,22 +230,74 @@ li.dropdown {
 .center {
     text-align: center;
 }
+
 .S {
     float: left;
-    width: 700px;
+    width: 33%;
     padding: 5px;
     border: 5px solid rgb(50, 50, 50);
-    border-bottom-width: 0px;
-    margin-left: 300px;
+    border-right-width: 0px;
 }
-.S img{
+
+.S img {
     width: 100%;
-    height: 500px;
+    height: 40%;
 }
-.S hr{
+
+.S hr {
     width: 100%;
 }
 
 .L {
-    border-bottom-width: 5px;
+    border-right-width: 5px;
+    font-size: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.S hr {
+    width: 100%;
+}
+
+.S h5,
+.S p {
+    margin-left: 20px;
+}
+
+.row {
+    margin-left: 5%;
+}
+
+.S h4 {
+    font-size: 17.5px;
+}
+
+#divOpen {
+    text-align: left;
+}
+
+.container-iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 42.5%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: 70.125%;
+    margin-left: 17.5%;
+}
+
+.visual {
+    border: 2px solid rgb(49, 112, 143);
+    padding: 0px;
 }
