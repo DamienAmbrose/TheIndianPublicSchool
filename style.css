@@ -300,4 +300,39 @@ li.dropdown {
 .visual {
     border: 2px solid rgb(49, 112, 143);
     padding: 0px;
+    height: 30%;
+}
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
+
+.alumni
+{
+  cursor: pointer;
+}
+.alumni img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+.img-modal {
+    height: 330px;
+    width: 330px;
+    border-radius: 100%;
+    margin-left: 20%;
 }
